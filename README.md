@@ -37,6 +37,8 @@ For **Linux**, see excerpt from the post.
 > `Run Ollama inside a Docker container`
 > `docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama`
 
-**MacOS Note:** Ollama needs to be installed directly, on Macs, if you're using Docker Desktop. Docker Desktop on Mac doesn't support GPU acceleration. I can't verify whether K3s or other K8s spins can do so, I have not tested it.
+**MacOS Note:** [Ollama Download Link](https://ollama.com/download)
+
+Ollama needs to be installed directly, on Macs, if you're using Docker Desktop. Docker Desktop on Mac doesn't support GPU acceleration. I can't verify whether K3s or other K8s spins can do so, I have not tested it.
 
 **Windows Note:** Docker Desktop for *Windows* has some fairly specific restrictions. It's a bit of a pain. I suggest you run Ollama as a system service through a WSL2 instance in that case. [Ollama Windows download](https://ollama.com/download/windows)
