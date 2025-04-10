@@ -58,7 +58,7 @@ Follow this excerpt from the Open WebUI docs to set up the Ollama instance as on
 
 > Once Open WebUI is installed and running, it will automatically attempt to connect to your Ollama instance. If everything goes smoothly, you’ll be ready to manage and use models right away.
 
-> However, if you encounter connection issues, the most common cause is a network misconfiguration. You can refer to our connection troubleshooting guide for help resolving these problems.
+> However, if you encounter connection issues, the most common cause is a network misconfiguration. You can refer to our [connection troubleshooting guide](https://docs.openwebui.com/troubleshooting/connection-error) for help resolving these problems.
 
 > ### Step 2: Managing Your Ollama Instance
 
