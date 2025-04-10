@@ -15,6 +15,7 @@ These files were converted using [Docling](https://https://github.com/docling-pr
 [Open WebUI Docs](https://docs.openwebui.com/getting-started/quick-start/)
 
 `docker pull ghcr.io/open-webui/open-webui:main`
+
 `docker run -d -p 3000:8080 -v open-webui:/app/backend/data --name open-webui ghcr.io/open-webui/open-webui:main`
 
 This will get you a basic container set up, which **will not** have volume storage mounted.
@@ -32,7 +33,6 @@ For **Linux**, see excerpt from the post.
 > `docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama` 
 
 > #### Nvidia GPU
-
 > `Install the Nvidia container toolkit.`
 > `Run Ollama inside a Docker container`
 > `docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama`
